@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "api-project": "file:",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "name": "api-project",
+  "version": "1.0.0",
+  "description": "nodeapi",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "author": "srivishal",
+  "license": "ISC"
+}
